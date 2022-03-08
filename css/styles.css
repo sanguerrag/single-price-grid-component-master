@@ -1,0 +1,192 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: #F7F6F2;
+    margin: 0;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+h1 {
+    color: 	#2ab2af;
+    font-size: 25px;
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 17px;
+    margin: 0;
+}
+
+h3 {
+    color: #c0df34;
+    margin-top: 20px;
+}
+
+ul {
+    color: 	#dfeaf1;
+    font-size: 13px;
+    list-style-type: none;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 0;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
+.main-container {
+    max-width: 660px;
+    box-shadow: rgb(149 157 165 / 50%) 2px 8px 28px;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.top-part {
+    background-color: white;
+    padding: 40px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.top-part p {
+    color: 	#98a6bd;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-top: 15px;
+    margin: 0;
+}
+
+.bottom-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+}
+
+.subscription-container {
+    background-color:	#2ab2af;
+    max-width: 100%;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+
+.whyus-container {
+    background-color:	#44cac8;
+    max-width: 100%;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+
+.fee-month {
+    margin-bottom: 0;
+}
+
+.fee-month span {
+    color: 	#e5eff5;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.fee-month small {
+    color: #b7d0e1;
+    font-size: 16px;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+
+.fullaccess {
+    color: #d7e5ef;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    border-radius: 5px;
+    color: white;
+    background: #c0df34;
+    display: inline-block;
+    min-width: 224px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* .btn {
+    border-radius: 5px;
+    color: white;
+    background: #c0df34;
+    display: inline-block;
+    margin-left: 10px;
+    min-width: 185px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-align: center;
+} */
+
+.btn:hover {
+    background: white;
+    color: #c0df34;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: #3e52a3;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .main-container {
+    margin: 30px;
+  }
+
+  .top-part {
+    max-width: 100%;
+    padding: 30px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .bottom-part {
+    display: flex;
+    flex-flow: column;
+    max-width: 100%;
+  }
+
+  .subscription-container {
+    padding: 30px;
+  }
+
+  .whyus-container {
+    padding: 30px;
+  }
+
+}
